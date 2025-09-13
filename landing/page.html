@@ -28,8 +28,8 @@ chess"
 </nav>
 
 <!-- Mobile menu -->
-<nav class="md:hidden flex justify-between items-center h-[64px] w-full h-[] bg-gradient-to-l from-[#3E1A68] to-[#161736] px-8">
-  <div class="flex w-full h-full items-center justify-between">
+<nav class="md:hidden flex flex-col h-[64px] w-full  bg-gradient-to-l from-[#3E1A68] to-[#161736] ">
+  <div class="flex w-full h-full items-center justify-between px-8">
     <div id="logo" class="flex h-full items-center">
     <svg class="size-8" fill="#E9B308" viewBox="-13.44 0 96.216 96.216">
       <path
@@ -43,10 +43,22 @@ chess"
     </svg>
     <h1 class="mx-2 text-2xl font-bold text-white uppercase">ethchess</h1>
   </div>
-  <div class=" ">
+  <div >
   <svg class="size-16 text-amber-50" viewBox="0 0 24 24" fill="none">
   <path d="M5 8H13.75M5 12H19M10.25 16L19 16" stroke="#E9B308" stroke-linecap="round" stroke-linejoin="round"/>
   </svg>
   </div>
+  </div>
+  <div class="bg-fuchsia-700 ">
+    <div class="w-full rounded-b-2xl ">
+    <ul class="mx-4 text-[16px] flex flex-col text-white space-y-4 font-semibold ">
+        <li><a href="">Dashboard</a></li>
+        <li><a href="">Tournament</a></li>
+        <li><a href="">Leaderboard</a></li>
+        <li><a href="">Profile</a></li>
+        <li><button class="text-white">Login</button></li>
+      </ul>
+  </div>
+    <button class="my-4 rounded-[13px] w-full bg-[#E9B308] px-4 py-2 font-semibold  whitespace-nowrap">Join club</button>
   </div>
 </nav>
